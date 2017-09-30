@@ -1,0 +1,62 @@
+
+# coding: utf-8
+
+# In[5]:
+
+import pandas as pd
+
+
+# In[6]:
+
+import numpy as np
+
+
+# In[7]:
+
+get_ipython().magic('pylab inline')
+
+
+# # Import Twitter Data
+
+# In[8]:
+
+df = pd.read_csv('../tweet_activity_metrics_.csv')
+
+
+# In[9]:
+
+df.head()
+
+
+# # Examine Data Types
+
+# In[10]:
+
+df.dtypes
+
+
+# # Check out Impressions
+
+# In[11]:
+
+df.describe()['impressions']
+
+
+# # Check out Engagements
+
+# In[12]:
+
+df.describe()['engagements']
+
+
+# # Plot Engagement Rate
+
+# In[1]:
+
+#TODO plot engagement rate against date
+
+
+# In[ ]:
+
+
+
